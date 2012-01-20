@@ -10,13 +10,11 @@ var:
   rss_path: /atom.xml
 
 production_url : http://username.github.com # or your custom domain name
-title : Jekyll Boostrap
+title : for-comprehension
 
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedbuder : feedname
+  name : James Rose
+  email : jamesrose@acm.org
+  github : rosejr
 
 exclude: .rbenv-version
