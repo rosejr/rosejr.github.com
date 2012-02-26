@@ -3,7 +3,7 @@ layout: post
 category : programming
 ---
 This is the first in a series of posts exploring forms of abstraction supported by various 
-programming languages, from the primiive to the advanced.  First up: C.
+programming languages, from the primitive to the advanced.  First up: C.
 
 C is not known for being abstract, for good reason.  It translates to assembly language in a rather 
 straightforward way.  It's certainly not going to perform dynamic dispatch or garbage collection for
@@ -220,7 +220,7 @@ needed for the length.  Let's make a struct to wrap that up:
 
 {% highlight c %}
 typedef struct _counted_array {
-	void *value;
+	void **value;
 	int length;
 } counted_array;
 
